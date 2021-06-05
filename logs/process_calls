@@ -1,0 +1,49 @@
+[2021-06-03 16:28:06,514] [INFO] [main.py:44] - Starting serial communications [device: COM6] [baud: 115200]
+[2021-06-03 16:28:06,515] [INFO] [main.py:46] - Serial communications started
+[2021-06-03 16:28:38,894] [INFO] [main.py:44] - Starting serial communications [device: COM6] [baud: 115200]
+[2021-06-03 16:28:38,897] [INFO] [main.py:46] - Serial communications started
+[2021-06-03 16:28:42,579] [DEBUG] [main.py:49] - New sensors packet [b'[{ "relative_humidity" : "47.30", "temperature" : "17.20", "sensor_id" : "0" },{ "relative_humidity" : "50.00", "temperature" : "17.60", "sensor_id" : "1" },{ "relative_humidity" : "50.90", "temperature" : "17.40", "sensor_id" : "2" },{ "relative_humidity" : "31.10", "temperature" : "17.60", "sensor_id" : "3" } ]\r\n']
+[2021-06-03 16:28:44,579] [DEBUG] [main.py:49] - New sensors packet [b'[{ "relative_humidity" : "48.10", "temperature" : "17.20", "sensor_id" : "0" },{ "relative_humidity" : "50.00", "temperature" : "17.50", "sensor_id" : "1" },{ "relative_humidity" : "49.20", "temperature" : "17.40", "sensor_id" : "2" },{ "relative_humidity" : "31.10", "temperature" : "17.60", "sensor_id" : "3" } ]\r\n']
+[2021-06-03 16:28:46,579] [DEBUG] [main.py:49] - New sensors packet [b'[{ "relative_humidity" : "47.30", "temperature" : "17.20", "sensor_id" : "0" },{ "relative_humidity" : "51.30", "temperature" : "17.60", "sensor_id" : "1" },{ "relative_humidity" : "50.80", "temperature" : "17.40", "sensor_id" : "2" },{ "relative_humidity" : "32.20", "temperature" : "17.60", "sensor_id" : "3" } ]\r\n']
+[2021-06-03 16:28:48,578] [DEBUG] [main.py:49] - New sensors packet [b'[{ "relative_humidity" : "47.20", "temperature" : "17.20", "sensor_id" : "0" },{ "relative_humidity" : "50.10", "temperature" : "17.50", "sensor_id" : "1" },{ "relative_humidity" : "50.70", "temperature" : "17.40", "sensor_id" : "2" },{ "relative_humidity" : "30.40", "temperature" : "17.60", "sensor_id" : "3" } ]\r\n']
+[2021-06-03 16:28:50,581] [DEBUG] [main.py:49] - New sensors packet [b'[{ "relative_humidity" : "47.10", "temperature" : "17.20", "sensor_id" : "0" },{ "relative_humidity" : "50.10", "temperature" : "17.60", "sensor_id" : "1" },{ "relative_humidity" : "50.40", "temperature" : "17.40", "sensor_id" : "2" },{ "relative_humidity" : "30.40", "temperature" : "17.60", "sensor_id" : "3" } ]\r\n']
+[2021-06-03 16:28:52,547] [DEBUG] [main.py:49] - New sensors packet [b'[{ "relative_humidity" : "48.10", "temperature" : "17.20", "sensor_id" : "0" },{ "relative_humidity" : "50.20", "temperature" : "17.60", "sensor_id" : "1" },{ "relative_humidity" : "50.40", "temperature" : "17.40", "sensor_id" : "2" },{ "relative_humidity" : "30.40", "temperature" : "17.60", "sensor_id" : "3" } ]\r\n']
+[2021-06-03 16:28:54,582] [DEBUG] [main.py:49] - New sensors packet [b'[{ "relative_humidity" : "47.30", "temperature" : "17.20", "sensor_id" : "0" },{ "relative_humidity" : "51.20", "temperature" : "17.60", "sensor_id" : "1" },{ "relative_humidity" : "50.50", "temperature" : "17.40", "sensor_id" : "2" },{ "relative_humidity" : "32.10", "temperature" : "17.60", "sensor_id" : "3" } ]\r\n']
+[2021-06-03 16:31:39,161] [INFO] [main.py:44] - Starting serial communications [device: COM6] [baud: 115200]
+[2021-06-03 16:31:39,163] [INFO] [main.py:46] - Serial communications started
+[2021-06-03 16:31:42,847] [DEBUG] [main.py:49] - New sensors packet: b'[{ "relative_humidity" : "47.10", "temperature" : "17.30", "sensor_id" : "0" },{ "relative_humidity" : "51.10", "temperature" : "17.60", "sensor_id" : "1" },{ "relative_humidity" : "50.70", "temperature" : "17.50", "sensor_id" : "2" },{ "relative_humidity" : "30.70", "temperature" : "17.70", "sensor_id" : "3" } ]\r\n'
+[2021-06-03 16:31:42,847] [DEBUG] [main.py:52] - Sending new sensor packet to Redis
+[2021-06-03 16:31:42,847] [DEBUG] [main.py:54] - Connecting to Redis server: [host 192.168.104.25] [port: 6379]
+[2021-06-03 16:31:42,856] [DEBUG] [main.py:60] - Done sending sensor packet to Redis
+[2021-06-03 16:31:44,833] [DEBUG] [main.py:49] - New sensors packet: b'[{ "relative_humidity" : "48.10", "temperature" : "17.20", "sensor_id" : "0" },{ "relative_humidity" : "51.10", "temperature" : "17.60", "sensor_id" : "1" },{ "relative_humidity" : "50.70", "temperature" : "17.50", "sensor_id" : "2" },{ "relative_humidity" : "30.70", "temperature" : "17.70", "sensor_id" : "3" } ]\r\n'
+[2021-06-03 16:31:44,834] [DEBUG] [main.py:52] - Sending new sensor packet to Redis
+[2021-06-03 16:31:44,834] [DEBUG] [main.py:54] - Connecting to Redis server: [host 192.168.104.25] [port: 6379]
+[2021-06-03 16:31:44,836] [DEBUG] [main.py:60] - Done sending sensor packet to Redis
+[2021-06-03 16:31:46,847] [DEBUG] [main.py:49] - New sensors packet: b'[{ "relative_humidity" : "47.30", "temperature" : "17.20", "sensor_id" : "0" },{ "relative_humidity" : "51.30", "temperature" : "17.60", "sensor_id" : "1" },{ "relative_humidity" : "49.50", "temperature" : "17.50", "sensor_id" : "2" },{ "relative_humidity" : "31.90", "temperature" : "17.70", "sensor_id" : "3" } ]\r\n'
+[2021-06-03 16:31:46,847] [DEBUG] [main.py:52] - Sending new sensor packet to Redis
+[2021-06-03 16:31:46,848] [DEBUG] [main.py:54] - Connecting to Redis server: [host 192.168.104.25] [port: 6379]
+[2021-06-03 16:31:46,850] [DEBUG] [main.py:60] - Done sending sensor packet to Redis
+[2021-06-03 16:31:48,846] [DEBUG] [main.py:49] - New sensors packet: b'[{ "relative_humidity" : "47.10", "temperature" : "17.20", "sensor_id" : "0" },{ "relative_humidity" : "50.10", "temperature" : "17.60", "sensor_id" : "1" },{ "relative_humidity" : "50.60", "temperature" : "17.50", "sensor_id" : "2" },{ "relative_humidity" : "32.10", "temperature" : "17.70", "sensor_id" : "3" } ]\r\n'
+[2021-06-03 16:31:48,847] [DEBUG] [main.py:52] - Sending new sensor packet to Redis
+[2021-06-03 16:31:48,847] [DEBUG] [main.py:54] - Connecting to Redis server: [host 192.168.104.25] [port: 6379]
+[2021-06-03 16:31:48,848] [DEBUG] [main.py:60] - Done sending sensor packet to Redis
+[2021-06-03 16:31:50,846] [DEBUG] [main.py:49] - New sensors packet: b'[{ "relative_humidity" : "47.10", "temperature" : "17.30", "sensor_id" : "0" },{ "relative_humidity" : "50.10", "temperature" : "17.60", "sensor_id" : "1" },{ "relative_humidity" : "50.60", "temperature" : "17.50", "sensor_id" : "2" },{ "relative_humidity" : "32.30", "temperature" : "17.70", "sensor_id" : "3" } ]\r\n'
+[2021-06-03 16:31:50,847] [DEBUG] [main.py:52] - Sending new sensor packet to Redis
+[2021-06-03 16:31:50,847] [DEBUG] [main.py:54] - Connecting to Redis server: [host 192.168.104.25] [port: 6379]
+[2021-06-03 16:31:50,848] [DEBUG] [main.py:60] - Done sending sensor packet to Redis
+[2021-06-03 16:31:52,813] [DEBUG] [main.py:49] - New sensors packet: b'[{ "relative_humidity" : "48.00", "temperature" : "17.20", "sensor_id" : "0" },{ "relative_humidity" : "50.10", "temperature" : "17.60", "sensor_id" : "1" },{ "relative_humidity" : "50.60", "temperature" : "17.50", "sensor_id" : "2" },{ "relative_humidity" : "32.30", "temperature" : "17.70", "sensor_id" : "3" } ]\r\n'
+[2021-06-03 16:31:52,814] [DEBUG] [main.py:52] - Sending new sensor packet to Redis
+[2021-06-03 16:31:52,814] [DEBUG] [main.py:54] - Connecting to Redis server: [host 192.168.104.25] [port: 6379]
+[2021-06-03 16:31:52,815] [DEBUG] [main.py:60] - Done sending sensor packet to Redis
+[2021-06-03 16:31:54,849] [DEBUG] [main.py:49] - New sensors packet: b'[{ "relative_humidity" : "47.30", "temperature" : "17.30", "sensor_id" : "0" },{ "relative_humidity" : "51.10", "temperature" : "17.60", "sensor_id" : "1" },{ "relative_humidity" : "51.20", "temperature" : "17.50", "sensor_id" : "2" },{ "relative_humidity" : "32.10", "temperature" : "17.70", "sensor_id" : "3" } ]\r\n'
+[2021-06-03 16:31:54,849] [DEBUG] [main.py:52] - Sending new sensor packet to Redis
+[2021-06-03 16:31:54,850] [DEBUG] [main.py:54] - Connecting to Redis server: [host 192.168.104.25] [port: 6379]
+[2021-06-03 16:31:54,851] [DEBUG] [main.py:60] - Done sending sensor packet to Redis
+[2021-06-03 16:31:56,809] [DEBUG] [main.py:49] - New sensors packet: b'[{ "relative_humidity" : "47.30", "temperature" : "17.30", "sensor_id" : "0" },{ "relative_humidity" : "51.10", "temperature" : "17.60", "sensor_id" : "1" },{ "relative_humidity" : "50.90", "temperature" : "17.50", "sensor_id" : "2" },{ "relative_humidity" : "32.10", "temperature" : "17.70", "sensor_id" : "3" } ]\r\n'
+[2021-06-03 16:31:56,810] [DEBUG] [main.py:52] - Sending new sensor packet to Redis
+[2021-06-03 16:31:56,810] [DEBUG] [main.py:54] - Connecting to Redis server: [host 192.168.104.25] [port: 6379]
+[2021-06-03 16:31:56,812] [DEBUG] [main.py:60] - Done sending sensor packet to Redis
+[2021-06-03 16:31:58,844] [DEBUG] [main.py:49] - New sensors packet: b'[{ "relative_humidity" : "47.10", "temperature" : "17.30", "sensor_id" : "0" },{ "relative_humidity" : "51.30", "temperature" : "17.60", "sensor_id" : "1" },{ "relative_humidity" : "50.60", "temperature" : "17.50", "sensor_id" : "2" },{ "relative_humidity" : "32.00", "temperature" : "17.70", "sensor_id" : "3" } ]\r\n'
+[2021-06-03 16:31:58,845] [DEBUG] [main.py:52] - Sending new sensor packet to Redis
+[2021-06-03 16:31:58,845] [DEBUG] [main.py:54] - Connecting to Redis server: [host 192.168.104.25] [port: 6379]
+[2021-06-03 16:31:58,846] [DEBUG] [main.py:60] - Done sending sensor packet to Redis
